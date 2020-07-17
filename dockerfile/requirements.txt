@@ -1,6 +1,5 @@
 line-bot-sdk
 flask
-psycopg2
 peewee
 pymysql
 flash
