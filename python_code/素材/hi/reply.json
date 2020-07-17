@@ -1,0 +1,36 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "如何使用SMart",
+        "text": "登入SMart後，如何體驗？",
+        "data": "menu=rich_menu_1"
+      },
+      {
+        "type": "postback",
+        "label": "合約條款",
+        "text": "SMart條款",
+        "data": "folder=aboutSmart"
+      },
+        {
+        "type": "postback",
+        "label": "SMart Q&A",
+        "text": "SMart Q&A",
+        "data": "folder=問題"
+      },
+        {
+        "type": "uri",
+        "label": "SMart 會員QR code",
+        "uri": "https://liff.line.me/1654364048-LYBnvlbq"
+      }
+    ],
+    "title": "SMart會員中心",
+    "text": "請在下方做選擇"
+  }
+}
+ ]

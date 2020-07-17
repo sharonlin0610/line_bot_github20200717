@@ -1,0 +1,49 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://imgur.com/vWzQNVd.png",
+        "title": "SMart 首頁 / 小故事",
+        "text": "SMart",
+        "actions": [
+          {
+            "type": "uri",
+            "label": "SMart首頁",
+            "uri": "https://smart-diamond.herokuapp.com/home"
+          },
+          {
+            "type": "postback",
+            "label": "SMart Story",
+            "text": "SMart小故事",
+            "data": "folder=故事"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://imgur.com/hhE5tnN.png",
+        "title": "SMart 服務 / 聯絡",
+        "text": "SMart",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "SMart相關服務",
+            "text": "SMart相關服務",
+            "data": "folder=想知道AI的戰略價值"
+          },
+          {
+            "type": "message",
+            "label": "聯絡SMart",
+            "text": "請至右邊的  SMart-team@gamil.com 信箱位置聯絡SMart Team，會有專人盡快回覆您的郵件！",
+            "data": "menu=rich_menu_0"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

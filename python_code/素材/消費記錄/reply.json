@@ -1,0 +1,21 @@
+[
+    {"type":"text",
+     "text":"會員在SMart商店結帳成功後，會顯示在歷史交易頁面。\n如系統未立即顯示，請稍等幾秒再刷新頁面查看，謝謝。"
+    },
+    {
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "uri",
+        "label": "查看歷史紀錄",
+        "uri": "https://liff.line.me/1654364048-WzKGBd3j"
+      }
+    ],
+    "title": "查看歷史紀錄",
+    "text": "會員查看歷史交易資料"
+  }
+}
+]

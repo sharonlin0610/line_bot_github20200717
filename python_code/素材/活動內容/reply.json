@@ -1,0 +1,26 @@
+[
+    {
+  "type": "sticker",
+  "packageId": "11539",
+  "stickerId": "52114119"
+   },
+    {"type":"text",
+     "text":"親愛的會員您好，請點 SMart活動，SMart將為您顯示目前商品活動！。\n如系統未立即顯示，請稍等幾秒再刷新頁面查看，謝謝。"
+    },
+    {
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "uri",
+        "label": "SMart活動",
+        "uri": "https://liff.line.me/1654364048-LqB54VZn"
+      }
+    ],
+    "title": "查看SMart活動",
+    "text": "會員查看SMart活動"
+  }
+}
+]

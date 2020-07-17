@@ -1,0 +1,89 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "圖文選單 1",
+  "chatBarText": "圖文選單",
+  "areas": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 839,
+        "height": 851
+      },
+      "action": {
+       "type": "postback",
+       "text": "關於SMart",
+       "data": "folder=smart"
+      }
+    },
+    {
+      "bounds": {
+        "x": 842,
+        "y": 8,
+        "width": 828,
+        "height": 839
+      },
+      "action": {
+        "type": "postback",
+        "text": "SMart活動",
+        "data": "folder=活動內容"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1671,
+        "y": 17,
+        "width": 829,
+        "height": 834
+      },
+      "action": {
+        "type": "postback",
+        "text":"SMart推薦",
+        "data": "folder=商品系統"
+      }
+    },
+    {
+      "bounds": {
+        "x": 4,
+        "y": 852,
+        "width": 818,
+        "height": 834
+      },
+      "action": {
+        "type": "postback",
+        "text": "歷史紀錄",
+        "data": "folder=消費記錄"
+      }
+    },
+    {
+      "bounds": {
+        "x": 821,
+        "y": 851,
+        "width": 836,
+        "height": 835
+      },
+      "action": {
+        "type": "postback",
+        "text": "購物車",
+        "data": "folder=hello"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1667,
+        "y": 850,
+        "width": 833,
+        "height": 836
+      },
+      "action": {
+        "type": "postback",
+        "text": "會員中心",
+        "data": "folder=hi"
+      }
+    }
+  ]
+}

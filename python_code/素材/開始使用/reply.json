@@ -1,0 +1,30 @@
+[
+{
+  "type": "text",
+  "text": "就差最後一步！請喚醒SMart吧！"
+},
+    {
+  "type": "sticker",
+  "packageId": "11538",
+  "stickerId": "51626499"
+   },
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+        {
+           "type": "postback",
+           "label": "叫醒SMart!!",
+           "text": "SMart甦醒，點選新的圖文選單！",
+           "data": "menu=rich_menu_0"
+        }
+        ],
+        "thumbnailImageUrl": "https://imgur.com/yBY9SKy.jpg",
+        "title": "喚醒SMart！",
+        "text": "點選喚醒並開始使用SMart！",
+        "data": "menu=rich_menu_test"
+  }
+ }
+]

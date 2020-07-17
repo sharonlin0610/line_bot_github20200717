@@ -1,0 +1,37 @@
+[
+{
+  "type": "text",
+  "text": "哈摟！！親愛的用戶，歡迎加入SMart !!。"
+},
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "我要登入SMart!!",
+        "text": "登入SMart",
+        "data": "folder=我要登入"
+      },
+      {
+        "type": "postback",
+        "label":"我要註冊SMart會員",
+        "text": "註冊SMart",
+        "data": "folder=註冊"
+      },
+      {
+        "type": "postback",
+        "label": "認識SMart",
+        "text": "認識SMart",
+        "data": "folder=探索"
+      }
+    ],
+    "thumbnailImageUrl": "https://imgur.com/xSvLikq.gif",
+    "title": "登入/註冊 SMart",
+    "text": "請點選下方進行互動式對答",
+    "data": "menu=rich_menu_test"
+  }
+}
+]

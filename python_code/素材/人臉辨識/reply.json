@@ -1,0 +1,39 @@
+[
+    {
+  "type": "image",
+  "originalContentUrl": "https://imgur.com/NmY4nBk.jpg",
+  "previewImageUrl": "https://imgur.com/NmY4nBk.jpg",
+  "animated": false
+},
+    {
+  "type": "text",
+  "text": "依據影像偵測是否有人臉，再依照人臉做特徵比對，分析偵測到的人臉為哪位顧客。\n被辨識者無法由照片、影片冒用他人臉部方式，通過人臉辨識驗證。"
+    },
+ {
+  "type": "sticker",
+  "packageId": "11537",
+  "stickerId": "52002736"
+   },
+    {
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+    "type": "confirm",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "繼續了解更多",
+        "text": "繼續了解更多",
+        "data": "folder=想知道AI的戰略價值"
+      },
+      {
+        "type": "postback",
+        "label": "返回服務選單",
+        "text": "返回",
+        "data": "menu=rich_menu_0"
+      }
+    ],
+    "text": "SMart的服務"
+  }
+}
+]

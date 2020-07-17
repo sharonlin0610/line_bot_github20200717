@@ -1,0 +1,33 @@
+[
+    {
+  "type": "text",
+  "text": "後台數據分析結合消費者購物喜好，在每一次的進入商店都會給予不同的回饋資訊。"
+    },
+ {
+  "type": "sticker",
+  "packageId": "11537",
+  "stickerId": "52002736"
+   },
+    {
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+    "type": "confirm",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "繼續了解更多",
+        "text": "繼續了解更多",
+        "data": "folder=想知道AI的戰略價值"
+      },
+      {
+        "type": "postback",
+        "label": "返回服務選單",
+        "text": "返回，點選圖文選單服務。",
+        "data": "menu=rich_menu_0"
+      }
+    ],
+    "text": "SMart的服務"
+  }
+}
+]

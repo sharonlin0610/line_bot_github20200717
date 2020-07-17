@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5;url=https://liff.line.me/1654318679-ZGj9g3bz" />
+    <title>Hello</title>
+</head>
+<body>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul class="flash">
+        {% for message in messages %}
+            <center>{{ message }}</center>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+    <center>hello, {{username}},  Welcome to Smart!</center>
+    <br>
+    <center>頁面跳轉中......請耐心等待.....</center>
+</body>
+</html>

@@ -1,0 +1,24 @@
+[
+  {
+  "type": "sticker",
+  "packageId": "11537",
+  "stickerId": "52002738"
+   },
+   {
+  "type": "text", 
+  "text": "你好我是SMart商品系統!\n請選擇'推薦商品'。 ",
+  "quickReply": { 
+    "items": [
+      {
+        "type": "action", 
+        "imageUrl": "https://imgur.com/ulMqpye.png",
+        "action": {
+          "type": "message",
+          "label": "推薦商品！",
+          "text": "推薦商品"
+        }
+      }
+    ]
+  }
+}
+]

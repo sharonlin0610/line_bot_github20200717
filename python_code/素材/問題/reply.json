@@ -1,0 +1,70 @@
+[
+{
+  "type": "text", 
+  "text": "你好我是SMart系統!\n可以詢問我關於Smart的問題唷！ ",
+  "quickReply": { 
+    "items": [
+      {
+        "type": "action", 
+        "imageUrl": "https://imgur.com/ulMqpye.png",
+        "action": {
+          "type": "postback",
+          "label": "如何加入",
+          "text": "掃取宣傳海報上的QR code加入SMart\n然後點選註冊會員～",
+          "data":"folder=問題"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "https://imgur.com/ulMqpye.png",
+        "action": {
+          "type": "postback",
+          "label": "購物方式",
+          "text": "進入SMart商店，掃取QR code或是臉部，成功登入後，\n直接進店拿取商品，走到結帳區，明細自動從SMart手機服務頁面顯示。",
+          "data":"folder=問題"
+        }
+      },
+        {
+        "type": "action", 
+        "imageUrl": "https://imgur.com/ulMqpye.png",
+        "action": {
+          "type": "postback",
+          "label": "新會員優惠活動",
+          "text": "當註冊成功，SMart會陸續推出優惠活動等資訊！請耐心等待～ ",
+          "data":"folder=問題"
+        }
+      },
+        {
+        "type": "action", 
+        "imageUrl": "https://imgur.com/ulMqpye.png",
+        "action": {
+          "type": "postback",
+          "label": "關於SMart",
+          "text": "SMart集結了AI人工智及影像即時追蹤的科技優勢！。",
+          "data":"folder=問題"
+        }
+      },
+      {
+        "type": "action", 
+        "imageUrl": "https://imgur.com/ulMqpye.png",
+        "action": {
+          "type": "postback",
+          "label": "如何付款",
+          "text": "當註冊成功，SMart系統自動連線會員信用卡卡號，\n驗證完並自動扣款，帳單並自動寄送。",
+          "data":"folder=問題"
+        }
+      },
+        {
+        "type": "action", 
+        "imageUrl": "https://imgur.com/ulMqpye.png",
+        "action": {
+          "type": "postback",
+          "label":"註冊SMart時，有什麼限制嗎？",
+          "text": "您好，一個line帳號只能申請一次唷！，照片只限於上完本人的相片，需經系統做幾天的作業審核。",
+          "data":"folder=問題"
+      }
+     }
+    ]
+  }
+ }
+]

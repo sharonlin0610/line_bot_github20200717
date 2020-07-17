@@ -1,0 +1,26 @@
+version: '2'
+services:
+  jupter:
+    build:
+      context: ./dockerfile
+      dockerfile: dockerfile-jupyter
+    container_name: jupyter
+    ports:
+      - "8887:8888"
+    volumes:
+      - ./jupyter:/home/jovyan/work/
+      - ./python_code:/home/jovyan/formal_code/
+    command: start-notebook.sh --NotebookApp.token=''
+  formal_python_code:
+    build:
+      context: ./dockerfile
+      dockerfile: dockerfile-python
+    container_name: python
+    tty: true
+    stdin_open: true
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./python_code:/app
+#    command: python app.py
+#    restart: always

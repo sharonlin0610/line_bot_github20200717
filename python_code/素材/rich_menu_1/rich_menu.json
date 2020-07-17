@@ -1,0 +1,84 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "menu_0",
+  "chatBarText": "圖文選單",
+"areas": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 839,
+        "height": 851
+      },
+      "action": {
+       "type": "message",
+       "text": "第一步，\n\n掃取QR code，加入SMart會員！\n開始使用會員服務選單功能。\n(請往右點下一步)"
+      }
+    },
+    {
+      "bounds": {
+        "x": 842,
+        "y": 8,
+        "width": 828,
+        "height": 839
+      },
+      "action": {
+        "type": "message",
+        "text": "第二步，\n\n歡迎進入SMart商店進行體驗！\n(請往右點下一步)"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1671,
+        "y": 17,
+        "width": 829,
+        "height": 834
+      },
+      "action": {
+        "type": "message",
+        "text": "第三步，\n\n進入商店後會進入會員登入區，成功後即可拿取商品。\n(請點下一步)"
+      }
+    },
+    {
+      "bounds": {
+        "x": 4,
+        "y": 852,
+        "width": 818,
+        "height": 834
+      },
+      "action": {
+        "type": "postback",
+        "text": "第六步，\n\n資料都會存取並更新，每一次查看資料就會顯示摟！\n\n體驗結束了！請多多使用SMart！\n(點選完自動回到會員服務選單）",
+        "data":"menu=rich_menu_0"
+      }
+    },
+    {
+      "bounds": {
+        "x": 821,
+        "y": 851,
+        "width": 836,
+        "height": 835
+      },
+      "action": {
+        "type": "message",
+        "text": "第五步，\n\n消費結束自動寫入系統，以及顯示歷史交易。\n(請點下一步)"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1667,
+        "y": 850,
+        "width": 833,
+        "height": 836
+      },
+      "action": {
+        "type": "message",
+        "text": "第四步，\n\n會員拿取商品，系統將會更新會員的購物車，\n當走至結帳區，無需出示信用卡或是現金交易，體驗「商品拿了就走」的快速消費型態。\n(請點下一步)"
+      }
+    }
+  ]
+}

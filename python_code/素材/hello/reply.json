@@ -1,0 +1,26 @@
+[
+    {
+  "type": "text", 
+  "text": "親愛的會員！你好~歡迎使用 SMart購物車服務！\n購物車只會在會員進入SMart商店後，才會啟動！並顯示即時的資訊～\n請點選'開啟購物車'。 "},
+ {
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "uri",
+        "label": "開啟購物車",
+         "uri": "https://liff.line.me/1654364048-qlbMEwX7"
+      },
+       {
+        "type": "message",
+        "label": "如何付款",
+        "text": "確認購物車明細符合後，請走到結帳區，系統自動進行扣款手續。"
+      } 
+    ],
+    "text": "查看SMart購物車"
+  }
+}
+]
+
