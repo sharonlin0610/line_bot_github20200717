@@ -249,7 +249,7 @@ def showcar():
 
 
 # --------推薦商品--------
-# 'product_recommendinfo 目前三個 只顯示最右邊訊息 寫一個fun 如果有oreo 及件)
+# 'product_recommendinfo )
 
 @app.route('/home/login/SMartrecommendation')
 def recommendation():
